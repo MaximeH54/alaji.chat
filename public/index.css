@@ -65,10 +65,10 @@ body .content {
 }
 
 .online .user,
-.chat .messages {
-  overflow: auto;
+.chat .messages {  
   margin: 0 -15px;
   padding: 0 15px;
+  word-break: break-all;
 }
 
 .user {
@@ -146,4 +146,19 @@ body .content {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 600;
+}
+
+.message {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 12px;
+  transform: rotate(0.5turn);
+}
+
+.pseudo {
+  font-weight: 800;
+  font-size: 15px;
+  color: yellow;
 }
